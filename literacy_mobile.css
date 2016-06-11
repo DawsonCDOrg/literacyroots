@@ -1,0 +1,58 @@
+@media screen and (max-width: 600px) {
+   
+    #rootslogo {
+        display: none;
+    }
+    
+    .container {
+        width: 90%;
+        font-size: 1.25em;
+    }
+    
+    .main {
+        background-color: #ffffff;
+    }
+    
+    .headergraphic {
+        background-image: url("http://www.literacyroots.com/images/finalroots.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    .headertext {
+        position: relative;
+        z-index: -1;
+    }
+    
+    h3.header-text {
+        color: #ffffff;
+    }
+    
+    .headertext>h1>a {
+        color: #ffffff;
+    }
+    
+    .headergraphic {
+        display: block;    
+    }
+    
+    .headernav {
+        display: block;
+    
+    }
+   
+    .socialnavicon {
+        display: inline-block;
+    }
+    
+    .footcopy {
+        float: none;
+        padding-left: 4px;
+    }
+    
+    .footcontact {
+        float: none;
+        
+    }
+}

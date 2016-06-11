@@ -1,0 +1,178 @@
+/* Literacy Roots - Main CSS Stylesheet */
+
+@font-face {
+  font-family: bahuas93;
+  src:url(./resources/ufonts.com_bauhaus-93.ttf);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0; padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.main {
+  background-color: #f3e5d8;
+  padding-top: 1px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 1px;
+  margin: 0;
+}
+
+.date {
+  font-style: italic;
+}
+
+footer {
+  position: absolute;
+  width: 85%;
+  background-color: #e6ffe6;
+}
+
+footer p {
+  font-size: .75em;
+}
+
+.footcopy {
+  float: right;
+}
+
+.footcontact {
+  float: left;
+  padding-left: 4px;
+}
+
+/* Social Media Icons List
+
+.footsocial {
+  margin-left: 13em;
+  margin-top: 10px;
+}
+.footsocial ul {
+  list-style-type: none;
+  }
+.footsocial li {
+  float: left;
+  display: block;
+  margin-left: 2px;
+}
+.footsocial img {
+  width: 16px;
+}
+
+--Currently commented out in html document */
+
+/* Updated Flex Header and Navigation Styling */
+
+header li {
+  list-style-type: none;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.headergraphic {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.headergraphic h1 {
+  color: #643d16;
+  font-family: bahuas93, sans-serif;
+  font-size: 2.75em;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: .09em;
+}
+
+.headergraphic h1 a, .headergraphic h3 {
+  color: #643d16;
+}
+
+.headergraphic img {
+  flex: 1;
+}
+
+.headergraphic a {
+  padding: 0;
+  margin: 0;
+}
+
+.headertext {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  flex: 1;
+}
+
+.headertext * {
+  flex: 1;
+}
+
+.headertext h1 {
+  font-family: bahuas93, sans-serif;
+  font-size: 2.75em;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: .09em;
+  margin-bottom: 0;
+  margin-left: -5%;
+}
+
+.headertext h3 {
+  margin-top: 10px;
+  margin-bottom: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.25em;
+  margin-left: -5%;
+}
+
+#rootslogo {
+  max-width: 100px;
+}
+
+.headernav {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #206040;
+  margin: 0;
+  padding: 0;
+}
+
+.headernav img {
+  max-width: 21px;
+}
+
+.headernav li {
+  padding: 14px 16px;
+}
+
+.headernav li a {
+  color: white;
+}
+
+.headernav a {
+    color: white;
+}
+
+.headernav li:hover {
+  background-color: #339966;
+}
+
+.headernav > a > .socialnavicon {
+  padding: 11px;
+}
+
+.headernav :nth-child(5) {
+  margin-left: auto;
+}
+
+/* End desktop navigation style */
